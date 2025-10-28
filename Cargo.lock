@@ -7,5 +7,9 @@ name = "ownership"
 version = "0.1.0"
 
 [[package]]
-name = "string"
+name = "reference"
+version = "0.1.0"
+
+[[package]]
+name = "thread"
 version = "0.1.0"
