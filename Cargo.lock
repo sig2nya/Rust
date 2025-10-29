@@ -3,11 +3,27 @@
 version = 4
 
 [[package]]
+name = "condition"
+version = "0.1.0"
+
+[[package]]
+name = "loops"
+version = "0.1.0"
+
+[[package]]
+name = "method"
+version = "0.1.0"
+
+[[package]]
 name = "ownership"
 version = "0.1.0"
 
 [[package]]
 name = "reference"
+version = "0.1.0"
+
+[[package]]
+name = "structure"
 version = "0.1.0"
 
 [[package]]
