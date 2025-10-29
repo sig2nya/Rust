@@ -1,4 +1,5 @@
 [workspace]
-members = [
+resolver = "3"
+members = ["condition", "loops",
   "ownership", "reference", "thread",
 ]
