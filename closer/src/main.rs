@@ -6,7 +6,7 @@ enum ShirtColor {
 }
 
 struct Inventory {
-    shirts: Vec<ShirtColr>,
+    shirts: Vec<ShirtColor>,
 }
 
 impl Inventory {

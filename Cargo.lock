@@ -3,7 +3,15 @@
 version = 4
 
 [[package]]
+name = "closer"
+version = "0.1.0"
+
+[[package]]
 name = "condition"
+version = "0.1.0"
+
+[[package]]
+name = "http_server"
 version = "0.1.0"
 
 [[package]]
@@ -28,4 +36,12 @@ version = "0.1.0"
 
 [[package]]
 name = "thread"
+version = "0.1.0"
+
+[[package]]
+name = "thread_pool"
+version = "0.1.0"
+
+[[package]]
+name = "visibility_modifiers"
 version = "0.1.0"

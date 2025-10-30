@@ -2,15 +2,14 @@ use std::thread;
 use std::time::Duration;
 
 fn main() {
-    thread::spawn(|| {
-        for i in 1..10 {
-            println!("Hi number {} from the spawned thread!", i);
-            thread::sleep(Duration::from_millis(1));
-        }
+    println!("Main Thread Started");
+    let handle = thread::spawn(|| {
+        println!("Thread Start Working");
+        thread::sleep(Duration::from_secs(2));
+        println!("Terminated Working");
     });
 
-    for i in 1..5 {
-        println!("Hi number {} from the main thread!", i);
-        thread::sleep(Duration::from_millis(1));
-    }
+    println!("Main Thread : Working Others...");
+    handle.join().unwrap();
+    println!("Main Thread : Every Threads are Terminated and exit");
 }
