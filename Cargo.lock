@@ -7,6 +7,10 @@ name = "closer"
 version = "0.1.0"
 
 [[package]]
+name = "collection"
+version = "0.1.0"
+
+[[package]]
 name = "condition"
 version = "0.1.0"
 
@@ -48,6 +52,10 @@ version = "0.1.0"
 
 [[package]]
 name = "thread_pool"
+version = "0.1.0"
+
+[[package]]
+name = "type_box"
 version = "0.1.0"
 
 [[package]]

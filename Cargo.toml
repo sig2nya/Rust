@@ -1,5 +1,5 @@
 [workspace]
 resolver = "3"
-members = ["closer","condition", "data_type", "http_server", "loops", "method",
-  "ownership", "reference", "safety", "structure", "thread", "thread_pool", "visibility_modifiers",
+members = ["closer", "collection","condition", "data_type", "http_server", "loops", "method",
+  "ownership", "reference", "safety", "structure", "thread", "thread_pool", "type_box", "visibility_modifiers",
 ]
