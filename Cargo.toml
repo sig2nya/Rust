@@ -1,5 +1,5 @@
 [workspace]
 resolver = "3"
 members = ["closer", "collection","condition", "data_type", "http_server", "implementation", "loops", "method", "oop",
-  "ownership", "reference", "safety", "smart_pointer", "socket", "structure", "thread", "thread_pool", "type_box", "usafe", "visibility_modifiers",
+  "ownership", "reference", "safety", "smart_pointer", "sock_tmout", "socket", "structure", "thread", "thread_pool", "type_box", "usafe", "visibility_modifiers",
 ]
