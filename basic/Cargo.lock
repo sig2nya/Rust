@@ -35,6 +35,10 @@ name = "method"
 version = "0.1.0"
 
 [[package]]
+name = "oop"
+version = "0.1.0"
+
+[[package]]
 name = "ownership"
 version = "0.1.0"
 
@@ -48,6 +52,10 @@ version = "0.1.0"
 
 [[package]]
 name = "smart_pointer"
+version = "0.1.0"
+
+[[package]]
+name = "sock_tmout"
 version = "0.1.0"
 
 [[package]]
@@ -68,6 +76,10 @@ version = "0.1.0"
 
 [[package]]
 name = "type_box"
+version = "0.1.0"
+
+[[package]]
+name = "usafe"
 version = "0.1.0"
 
 [[package]]
