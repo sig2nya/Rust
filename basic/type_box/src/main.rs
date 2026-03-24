@@ -14,9 +14,9 @@ impl Animal for Cat {
 }
 
 fn main() {
-    let x = 5; // Stack
+//    let x = 5; It will be allocated in Stack
     let y = Box::new(5); // Heap
-    println!("{}", *y); // y is a pointer
+    println!("y = {}", *y); // y is a pointer
 
     /*
      * let y = Box::new(5);
@@ -29,7 +29,8 @@ fn main() {
      * */
 
     let b = Box::new(10);
-    println!("b = {}", b);
+    println!("b           = {}", b);
+    println!("b's address = {:p}", b);
 
     let animals: Vec<Box<dyn Animal>> = vec![
         Box::new(Dog),

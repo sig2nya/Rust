@@ -1,3 +1,5 @@
+// 접근 제어자
+
 mod network {
     fn connect() {} // private
 }
